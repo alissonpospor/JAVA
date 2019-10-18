@@ -23,10 +23,10 @@ Repositório de armazenamento para o [curso de Java](https://www.udemy.com/cours
   
 ## 5. Introdução à Programação Orientada a Objetos:
   #### [Material de apoio](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/08-classes-atributos-membros-staticos.pdf).
+  #### [Material de apoio II](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/09-construtores-this-sobrecarga-encapsulamento.pdf).
 
 ###   5.1. Classes:
   #### [Material de apoio](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/05-estrutura-condicional.pdf).
-  #### [Material de apoio II](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/09-construtores-this-sobrecarga-encapsulamento.pdf).
   ####  -Toda classe em Java é uma subclasse da classe Object
   - É um tipo estruturado que pode conter (membros):
     - Atributos (dados/campos);
