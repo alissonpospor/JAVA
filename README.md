@@ -69,7 +69,7 @@ Repositório de armazenamento para o [curso de Java](https://www.udemy.com/cours
   - Regra de ouro: o objeto deve sempre estar em um estado consistente, e a própria classe deve garantir isso.
 
 ### 5.7 Modificadores de acesso:
-  - _private_: o membro só pode ser acessado na _própria_ _classe_.
+  - **private**: o membro só pode ser acessado na **própria classe**.
   - (nada): o membro só pode ser acessado nas classes do _mesmo_ _pacote_.
   - _protected_: o membro só pode ser acessado no _mesmo _pacote, bem como em _subclasses_ _de_ _pacotes_ _diferentes_.
   - _public_: o membro é acessado por todas classes (ao menos que ele resida em um módulo diferente que não exporte o pacote onde ele está).
