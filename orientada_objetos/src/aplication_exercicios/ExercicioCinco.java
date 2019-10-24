@@ -1,8 +1,8 @@
-package application;
+package aplication_exercicios;
 
 import java.util.Scanner;
 
-import entites.Conta;
+import entites_exercicios.Conta;
 
 public class ExercicioCinco {
 
@@ -20,7 +20,7 @@ public class ExercicioCinco {
 		System.out.println("Deseja fazer o primeiro deposito agora? [1- SIM; 2- NÃO]");
 		if (teclado.nextInt() == 1) {
 			System.out.println("Qual o valor?");
-			conta.setPoupanca(teclado.nextDouble());
+			conta.addSaldo(teclado.nextDouble());
 		}
 
 		System.out.println("Conta criada com sucesso!");

@@ -1,8 +1,8 @@
-package application;
+package aplication_exercicios;
 
 import java.util.Scanner;
 
-import entites.Empregado;
+import entites_exercicios.Empregado;
 
 public class ExercicioDois {
 

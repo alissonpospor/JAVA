@@ -1,6 +1,7 @@
-package entites;
+package entites_exercicios;
 
 public class Conta {
+	//OBEJTO DO EXERCICIO 5
 	private int numeroConta;
 	private String nome;
 	private double saldo;
@@ -10,22 +11,25 @@ public class Conta {
 
 	}
 
+	// sobrecarga de construtor
 	public Conta(int numeroConta, String nome) {
 		this.numeroConta = numeroConta;
 		this.nome = nome;
 	}
 
+	// sobrecarga de construtor
 	public Conta(int numeroConta, String nome, double saldo) {
 		this.numeroConta = numeroConta;
 		this.nome = nome;
 		this.saldo = saldo;
 	}
 
-	// funçoes
+	// função que adiciona saldo na conta "DEPOSITO"
 	public void addSaldo(double saldo) {
 		this.saldo += saldo;
 	}
 
+	// Função que remove saldo da conta "SAQUE"
 	public void debitoSaldo(double debito) {
 		this.saldo -= debito;
 	}
@@ -45,10 +49,6 @@ public class Conta {
 
 	public double getPoupanca() {
 		return saldo;
-	}
-
-	public void setPoupanca(double poupanca) {
-		this.saldo = poupanca;
 	}
 	// fim geters and seter
 
