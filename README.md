@@ -69,32 +69,37 @@ Repositório de armazenamento para o [curso de Java](https://www.udemy.com/cours
 
 ### 5.7 Polimorfismo "Muitas formas":
 	- Polimorfismo é a capacidade de um objeto poder ser referenciado de várias formas. "Ao contrario do nome _"polimorfismo" não tem nada a ver com mudança, o objeto nasce de um tipo e **morre** daquele tipo"
-		- **Ex:** Podemos nos referir a um **Gerente** como sendo um _Funcionario. Se alguém precisa falar com um _Funcionario do banco, pode falar com um **Gerente!** Porque? Pois **Gerente** é um _Funcionario. Essa é a semântica da herança.
+		- *Ex:* Podemos nos referir a um *Gerente* como sendo um _Funcionario. Se alguém precisa falar com um _Funcionario do banco, pode falar com um **Gerente!** Porque? Pois **Gerente** é um _Funcionario. Essa é a semântica da herança.
 
 ### 5.7 Modificadores de acesso:
-	- **private**: o membro só pode ser acessado na **própria classe**.
-	- **(nada)**: o membro só pode ser acessado nas **classes do mesmo pacote**.
-	- **protected**: o membro só pode ser acessado no **mesmo pacote**, bem como em **subclasses de pacotes diferentes**.
-	- **public**: o membro é acessado por todas classes (ao menos que ele resida em um módulo diferente que não exporte o pacote onde ele está).
+	- *private*: o membro só pode ser acessado na *própria classe*.
+	- *(nada)*: o membro só pode ser acessado nas *classes do mesmo pacote*.
+	- *protected*: o membro só pode ser acessado no *mesmo pacote*, bem como em *subclasses de pacotes diferentes*.
+	- *public*: o membro é acessado por todas classes (ao menos que ele resida em um módulo diferente que não exporte o pacote onde ele está).
   
 ## 6. Comportamento de memoria, arrays e listas:
 #### [Material de apoio II](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/10-memoria-arrays-e-listas.pdf).
 
-### 6.1 Deslocação de memoria:
-	- Objetos alocados dinamicamente, quando não possuem mais referência para eles, serão desalocados pelo garbage collector.
-	- Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução.
+### - 6.1 Deslocação de memoria:
+ - Objetos alocados dinamicamente, quando não possuem mais referência para eles, serão desalocados pelo garbage collector.
+ - Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução.
 
 ### 6.2 Vetores:
-####	- Em programação, "vetor" é o nome dado a arranjos unidimensionais
-		- Arranjo (array) é uma estrutura de dados:
-			- Homogênea (dados do mesmo tipo)
-			- Ordenada (elementos acessados por meio de posições)
-			- Alocada de uma vez só, em um bloco contíguo de memória
+#### - Em programação, "vetor" é o nome dado a arranjos unidimensionais
+ - Arranjo (array) é uma estrutura de dados:
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio de posições)
+  - Alocada de uma vez só, em um bloco contíguo de memória
 
 ### 6.3 Listas:
-	- Lista é uma estrutura de dados:
+#### - Lista é uma estrutura de dados:
 		- Homogênea (dados do mesmo tipo);
 		- Ordenada (elementos acessados por meio de posições);
 		- Inicia vazia, e seus elementos são alocados sob demanda;
 		- Cada elemento ocupa um "nó" (ou nodo) da lista;
-
+	- Comandos:
+		- _size()_ : Tamanho da lista;
+		- _get(posição)_ : Obtem elemento na lista;
+		- _add()_ , _add(tipo,objeto)_ : Inserir elementos na lista;
+		- _remove()_ , _removeIf()_ : Remover elemento da lista;
+		- _indexOf() , _lastIndexOf()_ : Encontrar posição de elemento;

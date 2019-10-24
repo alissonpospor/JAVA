@@ -1,8 +1,8 @@
-package orientado_array_exercicio;
+package aplication.array.exercicios;
 
 import java.util.Scanner;
 
-import entites_exercicios.Quarto;
+import entites.exercicios.Quarto;
 
 public class ExercicioUm {
 

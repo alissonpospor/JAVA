@@ -1,4 +1,4 @@
-package entites_exercicios;
+package entites.exercicios;
 
 public class Retangulo {
 	//Objeto do exercicio 1

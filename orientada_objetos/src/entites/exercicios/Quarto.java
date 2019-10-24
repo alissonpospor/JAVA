@@ -1,4 +1,4 @@
-package entites_exercicios;
+package entites.exercicios;
 
 //CLASSE DO EXERCICIO DE ARRAY COM OBJETOS
 public class Quarto {

@@ -1,8 +1,8 @@
-package aplication_exercicios;
+package aplication.exercicios;
 
 import java.util.Scanner;
 
-import entites_exercicios.Empregado;
+import entites.exercicios.Funcionario;
 
 public class ExercicioDois {
 
@@ -15,7 +15,7 @@ public class ExercicioDois {
 		 * mostrar novamente os dados do funcionário. Use a classe projetada abaixo.
 		 */
 		Scanner teclado = new Scanner(System.in);
-		Empregado empregado = new Empregado();
+		Funcionario empregado = new Funcionario();
 
 		System.out.println("Digite seus dados:");
 		System.out.print("Nome: ");

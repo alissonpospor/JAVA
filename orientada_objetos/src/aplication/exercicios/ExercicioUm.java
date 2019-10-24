@@ -1,8 +1,8 @@
-package aplication_exercicios;
+package aplication.exercicios;
 
 import java.util.Scanner;
 
-import entites_exercicios.Retangulo;
+import entites.exercicios.Retangulo;
 
 public class ExercicioUm {
 

@@ -1,6 +1,6 @@
-package entites_exercicios;
+package entites.exercicios;
 
-public class Empregado {
+public class Funcionario {
 	//Objeto do exercicio 2.
 	public String nome;
 	public double salarioBruto;
