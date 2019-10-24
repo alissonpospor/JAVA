@@ -48,6 +48,8 @@ public class ExercicioDois {
 		for (Empregado auxiliar : empregado) {
 			System.out.println(auxiliar);
 		}
+
+		teclado.close();
 	}
 
 }
