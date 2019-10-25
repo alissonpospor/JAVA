@@ -12,4 +12,24 @@ public class Cliente {
 		this.email = email;
 		this.diaAniversario = data;
 	}
+
+	
+	
+	public String getNome() {
+		return nome;
+	}
+
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Cliente: " + nome + diaAniversario + " - " + email;
+	}
+
 }

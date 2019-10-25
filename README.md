@@ -1,6 +1,6 @@
 # Repositório JAVA:
  #### Nele será depositado todo material de apoio e estudo durante o aprendizado da linguagem de programacao JAVA.
-1
+
 ## Teclas de atalho:
   - 'ALT + Shif + R' = Renomear nomes de Variáveis.
   - 'Ctrl + Shift + F' = Ambienta código.

@@ -1,5 +1,8 @@
 package entities.exercicio;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import entities.exercicio.Produto;
 
 public class ItemPedido {
@@ -10,7 +13,7 @@ public class ItemPedido {
 		this.quantidade = quantidade;
 	}
 
-	public double subTotal(int quantidade) {
-		return preco * quantidade;
+	public double subTotal(int quantia) {
+		return preco * quantia;
 	}
 }
