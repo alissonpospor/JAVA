@@ -1,4 +1,4 @@
-package entites.exercicios;
+package entities.exercicios;
 
 public class Conta {
 	//OBEJTO DO EXERCICIO 5

@@ -1,4 +1,4 @@
-package entites.exercicios;
+package entities.exercicios;
 
 public class Empregado {
 //OBJETO DA CLASSE EXERCICIO SEIS QUE ESTA NO PACKAGE aplication_exericios/ExercicioSeis

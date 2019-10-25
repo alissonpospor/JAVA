@@ -1,6 +1,6 @@
 # Repositório JAVA:
  #### Nele será depositado todo material de apoio e estudo durante o aprendizado da linguagem de programacao JAVA.
-
+1
 ## Teclas de atalho:
   - 'ALT + Shif + R' = Renomear nomes de Variáveis.
   - 'Ctrl + Shift + F' = Ambienta código.
@@ -10,7 +10,7 @@
 ## Documentação:
  ### 1. Introdução:
   ### 1.1 Organização Classes e Bibliotecas:
- #### [Caelum](https://www.caelum.com.br/apostila-java-orientacao-objetos/pacotes-organizando-suas-classes-e-bibliotecas/#acesso-aos-atributos-construtores-e-mtodos).
+ #### [Caelum](https://www.caelum.com.br/apostila-java-orientacao-objetos/pacotes-organizando-suas-classes-e-bibliotecas/#acesso-aos-atributos-construtores-e-mtodos). 
 	
 ### 2. Conceitos de programação:
  #### [Material de apoio](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/02-conceitos-de-programacao.pdf). 
@@ -105,5 +105,7 @@
   - _indexOf()_, _lastIndexOf()_ : Encontrar posição de elemento;
 
 ###   6.3 Matrizes:
-#### -  "matriz" é o nome dado a arranjos bidimensionais
+#### - "matriz" é o nome dado a arranjos bidimensionais
 	
+###   7 Enumerações, Composição:
+#### - • É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas.

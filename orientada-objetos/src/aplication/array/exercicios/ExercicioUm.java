@@ -2,7 +2,7 @@ package aplication.array.exercicios;
 
 import java.util.Scanner;
 
-import entites.exercicios.Quarto;
+import entities.exercicios.Quarto;
 
 public class ExercicioUm {
 

@@ -2,7 +2,7 @@ package application.aulas;
 
 import java.util.Scanner;
 
-import entites.Triangulo;
+import entities.Triangulo;
 
 public class Programa {
 

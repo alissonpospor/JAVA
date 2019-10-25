@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import entites.exercicios.Empregado;
+import entities.exercicios.Empregado;
 
 public class ExercicioDois {
 

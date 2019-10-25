@@ -2,7 +2,7 @@ package aplication.exercicios;
 
 import java.util.Scanner;
 
-import entites.exercicios.Aluno;
+import entities.exercicios.Aluno;
 
 public class ExercicioTres {
 

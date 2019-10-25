@@ -1,4 +1,4 @@
-package entites.exercicios;
+package entities.exercicios;
 
 public class Aluno {
 	// Objeto do exercicio 3.

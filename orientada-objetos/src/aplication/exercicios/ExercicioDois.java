@@ -2,7 +2,7 @@ package aplication.exercicios;
 
 import java.util.Scanner;
 
-import entites.exercicios.Funcionario;
+import entities.exercicios.Funcionario;
 
 public class ExercicioDois {
 
