@@ -2,7 +2,7 @@ package application.aulas;
 
 import java.util.Scanner;
 
-import entities.Produto;
+import entities.aulas.Produto;
 
 public class ProgramaTres {
 

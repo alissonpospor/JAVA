@@ -1,4 +1,4 @@
-package entities;
+package entities.aulas;
 
 public class Produto {
 	public String name;

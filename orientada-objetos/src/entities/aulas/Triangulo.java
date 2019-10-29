@@ -1,4 +1,4 @@
-package entities;
+package entities.aulas;
 
 public class Triangulo {
 	public double a;
