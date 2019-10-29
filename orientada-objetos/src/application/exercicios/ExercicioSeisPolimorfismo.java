@@ -11,7 +11,7 @@ import entities.exercicios.ProdutoImportado;
 import entities.exercicios.ProdutoUsado;
 import entities.exercicios.Produtoo;
 
-public class ExercicioSeis {
+public class ExercicioSeisPolimorfismo {
 
 	public static void main(String[] args) throws ParseException {
 		Scanner teclado = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class ExercicioSeis {
 
 		for (int i = 1; i <= numeroProd; i++) {
 			System.out.println("Dados produto #" + i + ": ");
-			System.out.print("Comum, usado ou importado (c/u/i)?");
+			System.out.print("Comum, usado ou importado (c/u/i)? ");
 			char tipo = teclado.next().charAt(0);
 
 			System.out.print("Nome: ");

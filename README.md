@@ -76,18 +76,15 @@
   
 ## 6. Comportamento de memoria, arrays e listas:
  #### [Material de apoio II](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/10-memoria-arrays-e-listas.pdf).
-
 ###   6.1 Deslocação de memoria:
  - Objetos alocados dinamicamente, quando não possuem mais referência para eles, serão desalocados pelo garbage collector.
  - Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução.
-
 ###   6.2 Vetores:
 #### - Em programação, "vetor" é o nome dado a arranjos unidimensionais
 - Arranjo (array) é uma estrutura de dados:
 - Homogênea (dados do mesmo tipo)
 - Ordenada (elementos acessados por meio de posições)
 - Alocada de uma vez só, em um bloco contíguo de memória
-
 ###   6.3 Listas:
  #### - Lista é uma estrutura de dados:
 - Homogênea (dados do mesmo tipo);
@@ -100,21 +97,30 @@
   - _add()_, _add(tipo,objeto)_ : Inserir elementos na lista;
   - _remove()_, _removeIf()_ : Remover elemento da lista;
   - _indexOf()_, _lastIndexOf()_ : Encontrar posição de elemento;
-
 ###   6.3 Matrizes:
-#### - "matriz" é o nome dado a arranjos bidimensionais
+ - "matriz" é o nome dado a arranjos bidimensionais
 	
 ##	7 Enumerações, Composição:
-###		7.1 Enumeração:
-#### - É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas.
+###	7.1 Enumeração:
+ - É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas.
 
 ###	7.2 Composição:
 #### - É um tipo de associação que permite que um objeto contenha outro
 
 ## 8. Herança, Polimorfismo:
 #### [Caelum](https://www.caelum.com.br/apostila-java-orientacao-objetos/heranca-reescrita-e-polimorfismo/).
-	8.1 Herança:
- - **Ex:** Podemos nos referir a um **Gerente** como sendo um _Funcionario_. Se alguém precisa falar com um _Funcionario_ do banco, pode falar com um **Gerente!** Porque? Pois **Gerente** é um _Funcionario_. Essa é a semântica da herança.
-	8.2 Polimorfismo "Muitas formas":
+###	8.1 Herança:
+ - É um tipo de associação que permite que uma classe herde todos dados e comportamentos de outra
+  - **Ex:** Podemos nos referir a um **Gerente** como sendo um _Funcionario_. Se alguém precisa falar com um _Funcionario_ do banco, pode falar com um **Gerente!** Porque? Pois **Gerente** é um _Funcionario_. Essa é a semântica da herança.
+###	8.2 Polimorfismo "Muitas formas":
  - Polimorfismo é a capacidade de um objeto poder ser referenciado de várias formas. "Ao contrario do nome _"polimorfismo"_ não tem nada a ver com mudança, o objeto nasce de um tipo e **morre** daquele tipo"
+### 8.3 Classes Abstratas:
+ - São classes que não podem ser instanciadas.
+ - É uma forma de garantir herança total: somente subclasses não abstratas podem ser instanciadas, mas nunca a superclasse abstrata.
+### 8.4 Métodos abstratas:
+ - São métodos que não possuem implementação.
+ - Métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementação.
+ - Se uma classe possuir pelo menos um método abstrato, então esta classe também é abstrata.
  
+## 8. Trabalhando com Date:
+#### [converter String para Date](https://www.alura.com.br/artigos/como-converter-string-para-date-em-java).
