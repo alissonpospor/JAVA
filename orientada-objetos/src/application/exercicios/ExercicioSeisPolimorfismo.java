@@ -7,9 +7,9 @@ import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
-import entities.exercicios.ProdutoImportado;
-import entities.exercicios.ProdutoUsado;
-import entities.exercicios.Produtoo;
+import exercicios.entities.ProdutoImportado;
+import exercicios.entities.ProdutoUsado;
+import exercicios.entities.Produtoo;
 
 public class ExercicioSeisPolimorfismo {
 

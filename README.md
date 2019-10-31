@@ -35,8 +35,7 @@
     - Sobrecarga;
     - Encapsulamento;
     - Herança;
-    - Polimorfismo;
-    
+    - Polimorfismo;  
 ###   5.2. Membros estáticos:
   - Também chamados membros de classe.
     - Em oposição a membros e instância.
@@ -44,7 +43,6 @@
   - Aplicações comuns:
     - Classes utilitárias.
     - Declaração de constantes.
-    
 ###   5.3. Construtores:
  #### É uma operação especial da classe, que executa no momento da instanciação do objeto.
   - Usos comuns:
@@ -52,21 +50,17 @@
     - Permitir ou obrigar que o objeto receba dados / dependências no momento de sua instanciação (injeção de dependência).
   - Se um construtor customizado não for especificado, a classe disponibiliza o construtor padrão:
     - Product p = new Product();
-  - É possível especificar mais de um construtor na mesma classe (sobrecarga).
-  
+  - É possível especificar mais de um construtor na mesma classe (sobrecarga). 
 ###   5.4. Palavra this:
  #### - É uma referência para o próprio objeto.
   - Usos comuns:
     - Diferenciar atributos de variáveis locais
-    - Passar o próprio objeto como argumento na chamada de um método ou construtor
-    
+    - Passar o próprio objeto como argumento na chamada de um método ou construtor  
 ###   5.5. Sobrecarga:
-  - É um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.
-  
+  - É um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome, porém com diferentes listas de parâmetros.  
 ###   5.6 Encapsulamento:
   - É um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado consistente.
   - Regra de ouro: o objeto deve sempre estar em um estado consistente, e a própria classe deve garantir isso.
-
 ###   5.7 Modificadores de acesso:
  - **private**: A única classe capaz de acessar os atributos, construtores e métodos privados é a própria classe. Classes, como conhecemos, não podem ser **private**, mas atributos, construtores e métodos sim.
  - **(nada)**:  Se nenhum modificador for utilizado, todas as classes do mesmo pacote têm acesso ao atributo, construtor, método ou classe.
@@ -75,17 +69,18 @@
  - **final**: Evita que a classe seja herdada.
   
 ## 6. Comportamento de memoria, arrays e listas:
- #### [Material de apoio II](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/10-memoria-arrays-e-listas.pdf).
-###   6.1 Deslocação de memoria:
+ #### [Material de apoio](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/10-memoria-arrays-e-listas.pdf).
+ 
+### 6.1 Deslocação de memoria:
  - Objetos alocados dinamicamente, quando não possuem mais referência para eles, serão desalocados pelo garbage collector.
  - Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução.
-###   6.2 Vetores:
+### 6.2 Vetores:
 #### - Em programação, "vetor" é o nome dado a arranjos unidimensionais
-- Arranjo (array) é uma estrutura de dados:
-- Homogênea (dados do mesmo tipo)
-- Ordenada (elementos acessados por meio de posições)
-- Alocada de uma vez só, em um bloco contíguo de memória
-###   6.3 Listas:
+  - Arranjo (array) é uma estrutura de dados:
+  - Homogênea (dados do mesmo tipo)
+  - Ordenada (elementos acessados por meio de posições)
+  - Alocada de uma vez só, em um bloco contíguo de memória
+### 6.3 Listas:
  #### - Lista é uma estrutura de dados:
 - Homogênea (dados do mesmo tipo);
   - Ordenada (elementos acessados por meio de posições);
@@ -97,13 +92,14 @@
   - _add()_, _add(tipo,objeto)_ : Inserir elementos na lista;
   - _remove()_, _removeIf()_ : Remover elemento da lista;
   - _indexOf()_, _lastIndexOf()_ : Encontrar posição de elemento;
-###   6.3 Matrizes:
+### 6.3 Matrizes:
  - "matriz" é o nome dado a arranjos bidimensionais
 	
-##	7 Enumerações, Composição:
-###	7.1 Enumeração:
- - É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas.
+## 7 Enumerações, Composição:
+#### [Material de apoio](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/13-enumeracoes-composicao).
 
+### 7.1 Enumeração:
+ - É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas.
 ###	7.2 Composição:
 #### - É um tipo de associação que permite que um objeto contenha outro
 
@@ -123,9 +119,13 @@
  - Se uma classe possuir pelo menos um método abstrato, então esta classe também é abstrata.
  
 ## 9. Trabalhando com Date:
-#### [converter String para Date](https://www.alura.com.br/artigos/como-converter-string-para-date-em-java).
+#### [Converter String para Date](https://www.alura.com.br/artigos/como-converter-string-para-date-em-java).
 
 ## 10. Interfaces:
-#### [Caelum](https://www.caelum.com.br/apostila-java-orientacao-objetos/interfaces/);
+#### [Caelum](https://www.caelum.com.br/apostila-java-orientacao-objetos/interfaces/16-interfaces).
 
-## 11. Generics, Set, Map
+## 11. Generics, Set, Map:
+#### [Material de apoio](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/17-generics-set-map).
+
+## 12. Programação Funcional e expressões lambda:
+#### [Material de apoio](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/18-programacao-funcional-expressoes-lambda).

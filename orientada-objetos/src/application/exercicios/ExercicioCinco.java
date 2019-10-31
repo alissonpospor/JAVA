@@ -2,7 +2,7 @@ package application.exercicios;
 
 import java.util.Scanner;
 
-import entities.exercicios.Conta;
+import exercicios.entities.Conta;
 
 public class ExercicioCinco {
 

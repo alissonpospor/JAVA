@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.exercicios.Contribuinte;
-import entities.exercicios.PessoaFisica;
-import entities.exercicios.PessoaJuridica;
+import exercicios.entities.Contribuinte;
+import exercicios.entities.PessoaFisica;
+import exercicios.entities.PessoaJuridica;
 
 public class ExercicioSeteMetodosAbstratos {
 
