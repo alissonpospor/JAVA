@@ -1,11 +1,15 @@
 package model.application;
 
+import java.io.ObjectInputStream.GetField;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
 import model.entities.Contrato;
+import model.entities.Quota;
+import model.services.ContratoServico;
+import model.services.ServicoPaypal;
 
 public class ExercicioInterfaces {
 
@@ -18,17 +22,25 @@ public class ExercicioInterfaces {
 		int contrato = teclado.nextInt();
 
 		System.out.print("Data (dd/MM//yyyy): ");
-		String datas = teclado.next();
-		Date data = simpleFormat.parse(datas);
+		Date data = simpleFormat.parse(teclado.nextLine());
 
 		System.out.print("Valor do contrato: ");
 		double valor = teclado.nextDouble();
-		Contrato conc = new Contrato(contrato, simpleFormat.format(data), valor);
 
+		Contrato conc = new Contrato(contrato, data, valor);
+		// simpleFormat.format(data)
 		System.out.print("Número de parcelas: ");
 		int numParcelas = teclado.nextInt();
 
-		System.out.println(conc);
+		ContratoServico cont = new ContratoServico(new ServicoPaypal());
+
+		cont.processoDeContrato(new Contrato(), numParcelas);
+
+		System.out.println();
+		System.out.println("Prestação: ");
+		for (cont xx : cont.get ) {
+			
+		}
 
 		teclado.close();
 	}

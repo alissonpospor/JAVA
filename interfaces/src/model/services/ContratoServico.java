@@ -1,8 +1,19 @@
 package model.services;
 
-public class ContratoServico {
+import model.entities.Contrato;
 
-	public void contratoProcesso() {
+public class ContratoServico extends Contrato {
 
+	private ServicoPagamentoOnline servicoPagamentoOnline;
+
+	private Contrato contra = new Contrato();
+
+	// contrutor
+	public ContratoServico(ServicoPagamentoOnline servico) {
+		this.servicoPagamentoOnline = servico;
+	}
+
+	public void processoDeContrato(Contrato cont, int meses) {
+		cont.getData();
 	}
 }
