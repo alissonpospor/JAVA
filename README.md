@@ -129,3 +129,10 @@
 
 ## 12. Programação Funcional e expressões lambda:
 #### [Material de apoio](https://github.com/alissonpospor/JAVA/blob/master/material-de-apoio-do-curso/18-programacao-funcional-expressoes-lambda).
+
+### 12.1 Predicate:
+#### [Material de Apoio](https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html).
+### 12.2 Consumer:
+#### [Material de Apoio](https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html).
+### 12.3 Function:
+#### [Material de Apoio](https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html).
